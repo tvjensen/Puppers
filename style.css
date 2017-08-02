@@ -1,0 +1,21 @@
+.btn {
+    background-color:white;
+    border: 1px solid #7ce7ff;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+
+.textbox {
+}
+
+.img {
+	max-width: 300px;
+	min-width: 200px;
+}
+
+h1.title {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

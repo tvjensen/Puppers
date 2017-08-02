@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Puppers",
+  "description": "This extension will display the top post on r/aww.",
+  "version": "1.0",
+
+  "icons": {
+    "128": "pawprint.jpg",
+    "48": "pawprint.jpg",
+    "16": "pawprint.jpg"
+  },
+
+  "browser_action": {
+   "default_popup": "popup.html"
+  },
+
+  "permissions": [
+   "activeTab",
+   "https://*/"
+  ]
+}
