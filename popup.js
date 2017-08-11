@@ -1,7 +1,5 @@
 
 
-
-
 function buttonClicked(event) {
   // document.getElementById(text).style.display = 'none';
  
@@ -21,15 +19,20 @@ function buttonClicked(event) {
     var currentDiv = document.getElementById("caption"); 
     currentDiv.innerText = post.title;
     var img = document.getElementById('postImage');
-    if(post.link) {
-      img.src = post.link;
-    } else {
-      img.src = '';
-    }
+    // if(post.link) {
+    //   if (post.link.search("imgur") > -1) {
+    //     img.src = post.img;
+    //   } else {
+    //     img.src = post.link;
+    //   }
+    // } else {
+    //   img.src = '';
+    // }
+    img.src = post.link
     console.log(post); 
   }
 
-  var subreddit = document.getElementById("subreddit").value;
+  var subreddit = document.getElementById("subreddit").value || 'aww';
   var currentDiv = document.getElementById("title"); 
   currentDiv.innerText = subreddit;
 }
