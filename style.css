@@ -20,3 +20,8 @@ h1.title {
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
+
+h1.caption {
+	color: #333333;
+	font-size: 100%;
+}
