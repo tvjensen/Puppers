@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
   document.addEventListener('keypress', e => {
     var key = e.which || e.keyCode;
     if(key === 13) {
-      buttonClicked(e);
+      displayContent(e);
     }
   });
 });
